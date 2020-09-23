@@ -60,7 +60,7 @@ body{
   }
   
   .sidenav .test {
-    background-color: red;
+    background-color: rgb(255, 51, 51);;
     border-radius: 10px 0 0 10px;
     margin-left: 5px;
   }
@@ -160,13 +160,13 @@ body{
 
     .appointment{
         background-color: white;
-        border: 2px solid red;
+        border: 2px solid rgb(255, 51, 51);;
         border-radius: 5px;
-        color: red;
+        color:rgb(255, 51, 51);;
     }
 
     .appointment:hover{
-        background-color: red;
+        background-color: rgb(255, 51, 51);
         border: 2px solid white;
         color:white;
     }
