@@ -41,25 +41,36 @@
 
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="col-md-3">
-            <img src="assets/images/aidivaa_logo.png" alt="" srcset=""><a class="navbar-brand" href="#"><img src="assets/images/text_logo.png" alt="" srcset="" height="40px" width="160px"></a></img>
+            <img src="assets/images/aidivaa_logo.png" alt="" srcset=""><a class="navbar-brand" href="#"><img src="assets/images/text_logo.png" alt="" style="margin-left: 45px;" srcset="" height="40px" width="160px"></a></img>
         </div>
   
   
     
     <div class="col-md-7">
         <div id="input_container">
-            <img src="assets/images/search.png" id="input_img">
+            <img src="assets/images/search.png" height="20px" width="20px" id="input_img">
             <input type="text" id="input" placeholder="Search">
             
         </div>
-    <button class="addPatient" style="font-family:abc;"><img src="assets/images/add icon.png" alt="" srcset=""> Add patients</button>
+    <button class="addPatient" style="font-family:abc;"><img src="assets/images/add icon.png" height="20px" width="20px" alt="" srcset=""> Add patients</button>
 </div>
 
 <div class="col-md-3">
-    <a href="#" class="header-icon"><img src="assets/images/Q mark icon.png" height="30px" width="25px" alt="" srcset=""></a>
-    <a href="#" class="header-icon"><img src="assets/images/notifications.png" height="30px" width="25px" alt="" srcset=""></a>
-    <a href="#" class="header-icon"><img src="assets/images/profile.png" height="30px" width="25px" alt="" srcset=""></a>
-    <a href="#" style="font-weight: bold;color: red;">Arun Dev</a>
+    <a href="#" class="header-icon"><img src="assets/images/Q mark icon.png" height="30px" width="30px" alt="" srcset=""></a>
+    <a href="#" class="header-icon"><img src="assets/images/notifications.png" height="30px" width="30px" alt="" srcset=""></a>
+    <a href="#" class="header-icon"><img src="assets/images/profile.png" height="30px" width="30px" alt="" srcset=""></a>
+   
+    <div class="dropdown" style="display: inline-block;">
+        <button class="btn dropdown-toggle learn" type="button" id="dropdownMenuButton" data-toggle="dropdown" style="font-weight:bold;color: red;border: none;"
+            aria-haspopup="true" aria-expanded="false">
+            Arun dev
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            
+        </div>
+    </div>
 </div>
   
 </nav>
@@ -257,7 +268,7 @@
 
     <div class="col-md-2">
         <div id="side-block">
-          <h4><img src="assets/images/calendar.png" alt="" srcset=""> Block calendar</h4>
+          <h5><img src="assets/images/calendar.png" alt="" srcset=""> Block calendar</h5>
         
           <hr id="horizontal">
         
@@ -267,13 +278,13 @@
                 <li>Dr. Dev</li>
             </ul>
             <hr id="horizontal">
-            <h4 style="font-family:abc;">Categories</h4>
+            <h5 style="font-family:abc;">Categories</h5>
             <p style="text-align: center;font-family:abc;">No categories available</p>
             <p style="text-align: center; color: blue;"><a href="#">Add category</a></p>
         </div>
           
       </div>
-    <div class="col-md-7">
+    <div class="col-md-7" style="padding-left: 45px;">
     
         <div id='wrap'>
     
@@ -308,11 +319,35 @@
             
               <div id="London" class="w3-container city">
                 
-                <p>
-                    <span class="badge badge-dark">Today-5</span>
-                    <span class="badge badge-warning">Waiting-0</span>
-                    <span class="badge badge-info">Engaged-0</span>
-                    <span class="badge badge-success">Done-0</span></p>
+                <div class="row">
+                    <div class="col-md-3">
+                        <span>Today</span>
+                        <br>
+                        <span class="badge badge-dark" style="padding:5px">5</span>
+
+                    </div>
+                    <div class="col-md-3">
+                        <span>Waiting</span>
+                        <br>
+                        <span class="badge badge-warning" style="padding:5px">0</span>
+
+                    </div>
+                    <div class="col-md-3">
+                        <span>Engaged</span>
+                        <br>
+                        <span class="badge badge-info" style="padding:5px;">0</span>
+                    </div>
+                   
+        
+                    <div class="col-md-3">
+                        <span>Done</span>
+                        <br>
+                        <span class="badge badge-success" style="padding:5px">0</span>
+
+                    </div>
+                </div>
+                    
+                
                     <hr>
                     <div class="row">
                         <div class="col-md-4">

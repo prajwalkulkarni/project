@@ -19,28 +19,14 @@ body{
     background-color: #e6e6e6;
     border:none;
     padding:5px;
-   height: 3em;
+   height: 2em;
 }
 
 .header-icon{
     padding:5px;
 }
 
-.has-search .form-control {
-    padding-left: 2.375rem;
-}
 
-.has-search .form-control-feedback {
-    position: absolute;
-    z-index: 2;
-    display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 2.375rem;
-    text-align: center;
-    pointer-events: none;
-    color: #aaa;
-}
 .sidenav {
     height: 100%;
     position: absolute;
@@ -101,7 +87,7 @@ body{
   }
 
 #side-block{
-    background-color: #e6e6e6;
+    background-color: #ffffff;
     padding: 5px;
     left:1em;
     position: relative;
@@ -112,6 +98,7 @@ body{
    
 #wrap {
     width: 600px;
+    
     
     }
 
@@ -180,16 +167,18 @@ body{
         display: inline-block;
         direction: ltr;
         width: 200px;
+       
     }
     #input {
-        height:3em;
+        background-color: #e6e6e6;
+        height:2em;
         margin:0;
         padding-left: 30px;
         width: 100%;
     }
     #input_img {
         position:absolute;
-        bottom:10px;
+        bottom:2px;
         left:25px;
         width:24px;
         height:24px;
@@ -197,7 +186,7 @@ body{
 
     #horizontal{
         height: 2px;
-        background-color: white;
+        background-color: #e6e6e6;
     }
 
     
