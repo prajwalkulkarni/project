@@ -151,9 +151,81 @@
                     }
                 ],
             });
-    
+
+            
+
+         
+
     
         });
+
+        function onHover(name,className) {
+            let cname = String(className)
+            $(cname).css('background','#ffffff')
+            $(cname).attr('src', 'assets/images/Submenu_icons/'+name+'r.png');
+        }
+        let selected = ""
+        let selectedImage=""
+        let count=0
+        
+
+        function offHover(name,className) {
+            let cname = String(className)
+           
+                $(cname).css('background','#ff3333')
+                $(cname).attr('src', 'assets/images/Submenu_icons/'+name+'.png');
+            
+        }
+
+        
+        /*function hightlight(id,className){
+            ++count;
+
+            let rId = "#"+id;
+            let cNumber = parseInt(className.replace("test",""))
+            let rClassName = "."+className
+
+            if(count>1){
+                $(selected).css('background','#ff3333')
+                let prevNum = selectedImage.replace(".test","")
+                if(parseInt(prevNum)<10){
+                    prevNum='00'+prevNum
+                }
+                else{
+                    prevNum = '0'+prevNum
+                }
+                $(selectedImage).attr('src','assets/images/Submenu_icons/'+prevNum+'.png')
+                $(rId).css('background','#ffffff')
+                if(cNumber<10){
+                    number='00'+cNumber
+                }
+                else{
+                    number = '0'+cNumber
+                }
+                path = 'assets/images/Submenu_icons/'+number+'r.png'
+                $(rClassName).attr('src',path)
+                selected = rId
+                selectedImage = rClassName
+                
+
+            }
+            else{
+                selected = rId
+                selectedImage = rClassName
+                let number=""
+                $(rId).css('background','#ffffff')
+                if(cNumber<10){
+                    number='00'+cNumber
+                }
+                else{
+                    number = '0'+cNumber
+                }
+                path = 'assets/images/Submenu_icons/'+number+'r.png'
+                $(rClassName).attr('src',path)
+            }
+        }*/
+        
+    
         
     
         function openCity(evt, cityName) {

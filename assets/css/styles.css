@@ -46,16 +46,20 @@ body{
   }
   
   .sidenav .test {
-    background-color: rgb(255, 51, 51);;
+    background-color: rgb(255, 51, 51);
     border-radius: 10px 0 0 10px;
-    margin-left: 5px;
+    padding-left: 10px;
   }
 
   .sidenav .test:hover{
-      background-color: blue;
+      background-color: white;
 
   }
-  
+
+  #active{
+      background-color: white;
+  }
+
   .main {
     margin-left: 160px; /* Same as the width of the sidenav */
     font-size: 28px; /* Increased text to enable scrolling */
