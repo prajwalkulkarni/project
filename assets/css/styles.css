@@ -51,14 +51,8 @@ body{
     padding-left: 10px;
   }
 
-  .sidenav .test:hover{
-      background-color: white;
+  
 
-  }
-
-  #active{
-      background-color: white;
-  }
 
   .main {
     margin-left: 160px; /* Same as the width of the sidenav */
@@ -193,4 +187,149 @@ body{
         background-color: #e6e6e6;
     }
 
+    .test:hover{
+        background-color: #ffffff !important;
+    }
+
+    .test .test1:last-child {
+        display: none;  
+      }
+    .test:hover .test1:last-child {
+        
+        display: block ;  
+    }
+    .test:hover .test1:first-child {
+        display: none;  
+      }
+
+      .test .test2:last-child {
+        display: none;  
+      }
+    .test:hover .test2:last-child {
+        
+        display: block;  
+    }
+    .test:hover .test2:first-child {
+        display: none;  
+      }
+
+
+      .test .test3:last-child {
+        display: none;  
+      }
+    .test:hover .test3:last-child {
+        
+        display: block;  
+    }
+    .test:hover .test3:first-child {
+        display: none;  
+      }
+
+
+      .test .test4:last-child {
+        display: none;  
+      }
+    .test:hover .test4:last-child {
+        
+        display: block;  
+    }
+    .test:hover .test4:first-child {
+        display: none;  
+      }
+
+
+      .test .test5:last-child {
+        display: none;  
+      }
+    .test:hover .test5:last-child {
+        
+        display: block;  
+    }
+    .test:hover .test5:first-child {
+        display: none;  
+      }
+
+
+      .test .test6:last-child {
+        display: none;  
+      }
+    .test:hover .test6:last-child {
+        
+        display: block;  
+    }
+    .test:hover .test6:first-child {
+        display: none;  
+      }
+
+
+      .test .test7:last-child {
+        display: none;  
+      }
+    .test:hover .test7:last-child {
+        
+        display: block;  
+    }
+    .test:hover .test7:first-child {
+        display: none;  
+      }
+
+
+      .test .test8:last-child {
+        display: none;  
+      }
+    .test:hover .test8:last-child {
+        
+        display: block;  
+    }
+    .test:hover .test8:first-child {
+        display: none;  
+      }
+
+
+      .test .test9:last-child {
+        display: none;  
+      }
+    .test:hover .test9:last-child {
+        
+        display: block;  
+    }
+    .test:hover .test9:first-child {
+        display: none;  
+      }
+
+
+      .test .test10:last-child {
+        display: none;  
+      }
+    .test:hover .test10:last-child {
+        
+        display: block;  
+    }
+    .test:hover .test10:first-child {
+        display: none;  
+      }
+
+
+      .test .test11:last-child {
+        display: none;  
+      }
+    .test:hover .test11:last-child {
+        
+        display: block;  
+    }
+    .test:hover .test11:first-child {
+        display: none;  
+      }
+
+
+      .test .test12:last-child {
+        display: none;  
+      }
+    .test:hover .test12:last-child {
+        
+        display: block;  
+    }
+    .test:hover .test12:first-child {
+        display: none;  
+      }
     

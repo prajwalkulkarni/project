@@ -159,71 +159,13 @@
     
         });
 
-        function onHover(name,className) {
-            let cname = String(className)
-            $(cname).css('background','#ffffff')
-            $(cname).attr('src', 'assets/images/Submenu_icons/'+name+'r.png');
-        }
+        
         let selected = ""
         let selectedImage=""
         let count=0
         
-
-        function offHover(name,className) {
-            let cname = String(className)
-           
-                $(cname).css('background','#ff3333')
-                $(cname).attr('src', 'assets/images/Submenu_icons/'+name+'.png');
-            
-        }
-
         
-        /*function hightlight(id,className){
-            ++count;
-
-            let rId = "#"+id;
-            let cNumber = parseInt(className.replace("test",""))
-            let rClassName = "."+className
-
-            if(count>1){
-                $(selected).css('background','#ff3333')
-                let prevNum = selectedImage.replace(".test","")
-                if(parseInt(prevNum)<10){
-                    prevNum='00'+prevNum
-                }
-                else{
-                    prevNum = '0'+prevNum
-                }
-                $(selectedImage).attr('src','assets/images/Submenu_icons/'+prevNum+'.png')
-                $(rId).css('background','#ffffff')
-                if(cNumber<10){
-                    number='00'+cNumber
-                }
-                else{
-                    number = '0'+cNumber
-                }
-                path = 'assets/images/Submenu_icons/'+number+'r.png'
-                $(rClassName).attr('src',path)
-                selected = rId
-                selectedImage = rClassName
-                
-
-            }
-            else{
-                selected = rId
-                selectedImage = rClassName
-                let number=""
-                $(rId).css('background','#ffffff')
-                if(cNumber<10){
-                    number='00'+cNumber
-                }
-                else{
-                    number = '0'+cNumber
-                }
-                path = 'assets/images/Submenu_icons/'+number+'r.png'
-                $(rClassName).attr('src',path)
-            }
-        }*/
+       
         
     
         
@@ -239,5 +181,28 @@
               tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
             }
             document.getElementById(cityName).style.display = "block";
-            evt.currentTarget.firstElementChild.className += " w3-border-red";
+          }
+
+          let prevId = ""
+
+          function set(id){
+              dict = {'a':1,'b':2,'c':3,'d':4,'e':5,'f':6,'g':6,'h':7,'i':8,'j':9,'k':9,'l':10,'m':11,'n':12}
+              let arr = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n']
+              let rId = "#"+id
+           
+            if(prevId!==""){
+                $(prevId).css('background','#ff3333')
+                $(prevId+' img:first-child').css('display','')
+                $(prevId+' img:last-child').css('display','')
+              
+            }
+
+
+              $(rId).css('background','#ffffff')
+              $(rId+' img:first-child').css('display','none')
+              $(rId+' img:last-child').css('display','block')
+
+              prevId = rId
+
+
           }
